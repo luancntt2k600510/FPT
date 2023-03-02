@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Your first HTML form, styled</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <form>
+        <header class="header">
+          <h1 class="text-center">FA Survey Form</h1>
+          <p class="description text-center">
+            Thank you for taking the time to help us improve the platform
+          </p>
+        </header>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <!-- Email  -->
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required/>
+        </div>
+        <!-- Age -->
+        <div class="form-group">
+          <label for="age">Age (optional)</label>
+          <input type="number" name="age" id="age" class="form-control" placeholder="Age" required>
+        </div>
+        <!-- Current role -->
+        <div class="form-group">
+          <label for="role">Which option best describes your current role?</label>
+          <select name="role" id="role" class="form-control" placeholder="Select current role" required>
+            <option value="#">Select current role</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </div>
+        <!-- Recommend to friend -->
+        <div class="form-group">
+          <label for="recommend">Would you recommend FA to a friend?</label>
+          <input type="radio" name="Definitely" id="Definitely"> Definitely <br/>
+          <input type="radio" name="Definitely" id="Definitely"> Maybe <br/>
+          <input type="radio" name="Definitely" id="Definitely"> Not sure <br/>
+        </div>
+
+
+        <!-- What would you like to see improved -->
+        <div class="form-group">
+          <label for="improved" title="Please fill out this field">What would you like to see improved? (Check all that apply)</label>
+          <input type="checkbox" name="FE" id="FE"> Front-End Projects <br/>
+          <input type="checkbox" name="FE" id="FE"> Back-End Projects <br/>
+          <input type="checkbox" name="FE" id="FE"> AI <br/>
+          <input type="checkbox" name="FE" id="FE"> Machine Learning <br/>
+          <input type="checkbox" name="FE" id="FE"> Soft Skills <br/>
+          <input type="checkbox" name="FE" id="FE"> Presentation Skills <br/>
+        </div>
+        <!-- Suggestions -->
+        <div class="form-group">
+          <label for="suggestions">Any comments or suggestions?</label>
+          <textarea name="suggestion" id="suggestion" cols="75" rows="10" placeholder="Enter your comments here"></textarea>
+        </div>
+        <!-- Submit-button -->
+        <div class="form-group">
+          <input type="submit" value="Submit" class="form-control">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
