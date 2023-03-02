@@ -1,0 +1,41 @@
+.quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.question-container{
+    padding: 2% 5% ;
+    border: 1px black solid
+}
+
+.question-number {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.question-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.answer-option {
+    margin: 10px;
+}
+
+.button-group {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.score {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Object basics: Task 1</title>
+    <style>
+      p {
+        color: purple;
+        margin: 0.5em 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+
+  <body>
+    <section class="preview"></section>
+  </body>
+  <script>
+    let season = 'summer';
+    let response;
+
+    // Add your code here.
+    switch (season) {
+      case season = 'spring':
+        response = 'It\'s spring'
+        break;
+      case season = 'summer':
+        response = 'It\'s probably nice and warm where are you; enjoy the sun!'
+        break;
+      case season = 'fall':
+        response = 'It\'s fall'
+        break;
+      case season = 'winter':
+        response = 'It\'s winter!'
+        break;
+      default:
+    }
+
+    // Don't edit the code below here!
+
+    const section = document.querySelector('section');
+
+    let para1 = document.createElement('p');
+    para1.textContent = response;
+    section.appendChild(para1);
+  </script>
+</html>

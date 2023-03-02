@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+.anh{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.div1, .div2, .div3{
+    padding: 0 5%;
+}
+.Generate, .anh{
+    margin-top: 2%;
+}
+.btn{
+    padding:1% ;
+    border-radius: 30%;
+}
+.img{
+    border: 1px solid black;
+}

@@ -1,0 +1,34 @@
+#number {
+    margin: 0
+}
+
+.table th {
+    text-align: center;
+}
+
+.table td,
+.table th {
+    border: 1px solid black;
+    height: auto;
+}
+
+.table2 .btn {
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+.table2 th {
+    border-style: none;
+
+}
+
+.table2 {
+    text-align: center;
+}
+
+.table tbody tr td .img {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
