@@ -1,0 +1,122 @@
+.link-secondary{
+    text-decoration: none;
+    color: black;
+}
+.main, .mid-footer{
+    background-image: url("./resources/images/bg-masthead.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+    overflow: auto;
+    margin-bottom: 32px;
+}
+.mid-footer{
+    margin: 0;
+}
+.align-content-lg-between, .text-bot-footer{
+    margin: auto 10% ;
+    padding: 3%;
+}
+.align-content-lg-between h1, .text-bot-footer h1{
+    color:white
+}
+.input{
+    display: flex ;
+    /* flex-wrap: wrap ; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 3%
+}
+
+.fa-search{
+    width: 100%;
+    margin: 2% 0;
+    border: 1px solid black;
+    margin-right: auto !important;
+}
+.btn{
+    padding: 0 3%;
+    border-radius: 3px;
+    
+}
+.container{
+    margin: 0 auto;
+}
+.marketing .col-lg-4{
+    text-align: center;
+}
+.Fully-Responsive, .Use, .Boostrap{
+    margin: 0 auto;
+}
+.img{
+    height: 140px;
+    width: 140px
+}
+.Fully-Responsive-Design, .Update-For-Boostrap4, .Easy-to-Use-Customize{
+    width: 100%; 
+}
+.img2{
+    height: auto;
+    width: 100%;
+}
+.col-md-6{
+    padding: 0;
+}
+div.marketing .row{
+    padding: 3% 0;
+}
+div.marketing .start{
+    padding: 0;
+}
+.text{
+    padding: 0 5%;
+}
+.footer{
+    background-color: blanchedalmond;
+}
+.img3{
+    height: auto;
+    width: 30%;
+    border-radius: 50% !important;
+}
+.container .col-lg-4, .h2-text{
+    text-align: center;
+    align-items: center;
+}
+.h2-text{
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+h2{
+    font-size: 15px;
+}
+.border-bottom{
+    height:auto;
+    
+    margin: 0 auto;
+}
+.bot-footer{
+    margin-bottom: 1%;
+    margin: 0 auto;
+}
+i,.nav-item{
+    color: #0d6efd;
+}
+.d-flex, .nav{
+    justify-content: center;
+}
+@media screen and (max-width: 450px){
+    .btn{
+        width:100%
+    }
+    .input{
+        flex-wrap: wrap !important;
+    }
+    .bot-footer{
+        width: 100%;
+        text-align: center;
+    }
+}

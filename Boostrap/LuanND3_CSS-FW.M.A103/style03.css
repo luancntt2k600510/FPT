@@ -1,0 +1,256 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #0d6efd;
+    color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 5% 5% 5% 10%;
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover:not(.closebtn) {
+    color: #ff4343;
+}
+
+.sidebar .closebtn {
+    /* padding-top: 3.2%; */
+    position: absolute;
+    background-color: #0058db;
+    width: 100%;
+    top: 0;
+    padding: 4% 5%;
+}
+
+.text {
+    font-size: 20px;
+    background-color: #111;
+    padding: 2% 10%;
+    margin: 3% 10% 3.5% 0;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 0.5% 1%;
+    border: none;
+    float: right;
+    visibility: visible;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 1%;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 0;
+    }
+
+    .sidebar a {
+        font-size: 15px;
+    }
+
+    .sidebar .closebtn {
+        position: relative;
+
+    }
+}
+
+#main {
+    background-image: url('./resources/images/bg-masthead.jpg');
+    background-size: 100% 100%;
+    height: 70vh;
+}
+
+.content {
+    padding: 10%;
+    align-items: center;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 50px;
+}
+
+.content p {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.content .btn,
+.bot-main .btn,
+.mid-container .btn {
+    padding: 2% 3%;
+    font-size: 10px;
+}
+
+.bot-main {
+    padding: 5% 0;
+}
+
+.bot-main h2 {
+    font-size: 25px;
+}
+
+.bot-main p {
+    font-size: 15px;
+    margin-bottom: 3%;
+}
+
+.top-container {
+    margin: auto 0;
+    padding: 3%
+}
+
+.content-container h3,
+.title-footer h3 {
+    padding-top: 2%;
+    font-size: 13px;
+    color: orange;
+}
+
+.content-container p {
+    color: #fff;
+    font-size: 30px;
+}
+
+.row {
+    margin: 0 auto;
+}
+
+.hand,
+.pencil,
+.phone,
+.mustache {
+    padding: 5%;
+    color: black;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.col-3 h2,
+.col-3 p {
+    color: #fff;
+}
+
+.col-3 h2 {
+    font-size: 18px;
+    margin: 2% 0;
+}
+
+.hand,
+.pencil,
+.phone,
+.mustache {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.mid-container {
+    background-image: url('./resources/images/bg-callout.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    padding: 20%;
+}
+
+.your {
+    font-style: italic;
+}
+
+.top-footer {
+    margin: 0 10% 5% 10%;
+}
+
+.card {
+    width: 40%;
+    height: 10%;
+}
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10%;
+}
+
+.title-footer+p {
+    color: black;
+    font-size: 30px;
+}
+
+.card-text,
+.card-title {
+    vertical-align: text-bottom;
+    top: 50%;
+}
+
+.mid-footer {
+    background-color: #0058db;
+    padding: 5%;
+}
+
+.look, .text-mid-footer, .look:hover, .card-img-overlay{
+    color: white;
+}
+
+.map{
+    height: auto;
+    width: 100%;
+}
+footer{
+    margin: 2% auto;
+}
+.text-ft p, .bot-main p{
+    color:#111
+}
+.text-ft p{
+    font-size: 10px;
+}
+.top i{
+    font-size: 30px;
+    padding: 1% 2%;
+}
+@media screen and (max-width: 750px){
+    .col-3{
+        width: 50%;
+    }
+    .card{
+        height: auto;
+        width: 100%;
+    }
+    .row{
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 320px){
+    
+    .col-3{
+        width: 80%
+    }
+}

@@ -1,0 +1,55 @@
+header{
+    background-image: url("./resources/images/bg.PNG");
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 3%;
+    height: fit-content;
+}
+.header-text{
+    color: white;
+    font-size: 25px;
+}
+.One{
+    font-size: 35px;
+}
+.text{
+    font-size: 10px;
+    border-radius: 30px;
+}
+.img3{
+    display: none;
+}
+.img2{
+    border-radius: 50% !important;
+    height: auto;
+    width: 50%;
+}
+.For, .Let, .We{
+    margin: 10% auto ;
+    text-align: center;
+
+}
+.row{
+    align-items: center;
+}
+.text{
+    padding: 0 5%;
+}
+.marketing{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.footer{
+    background-color: black;
+    color: #ffF;
+    text-align: center;
+    padding: 2%;
+}
+@media screen and (min-width: 10240px) {
+    .row{
+        flex-direction: column-reverse;
+    }
+    .reverse{
+        flex-direction: column;
+    }
+}
