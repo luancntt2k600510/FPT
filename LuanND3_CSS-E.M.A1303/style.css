@@ -1,0 +1,287 @@
+body{
+    margin: 0;
+}
+.top_header{
+    background-image: url('./resources/resources/app.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 100%;
+    display: grid;
+}
+div.left{
+    /* overflow: visible; */
+    width: 30%;
+    position: absolute;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.app,.text{
+    display: none;
+}
+.right{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff;
+    border-radius: 10px;
+}
+.title{
+    /* width: 50%; */
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+}
+.Download_header{
+    background-color: rgba(102, 226, 102, 0.555);
+    color:#fff;
+    font-size: medium;
+    text-align: center;
+    padding: 5% 10%;
+}
+.Download_header:hover, .Download_header:active{
+    background-color: green;
+}
+.super{
+    margin: 0;
+}
+h2{
+    font-size: 25px;
+}
+.h2_header{
+    color:rgb(3, 190, 19);
+}
+span{
+    font-size: 20px;
+}
+.bot_header{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    overflow: auto;
+}
+.why{
+    flex-basis: 850px;
+    padding-left: 20px;
+}
+#android{
+    color: green;
+}
+#window{
+    color: blue;
+}
+.anh{
+    scale: 0.9;
+    text-align: center;
+    flex-grow: 1;
+} 
+@media screen and (max-width: 700px){
+    *{
+        box-sizing: border-box;
+    }
+    .top_header{
+        background-image: none;
+        display: block;
+        height: 100vh;
+    }
+    .app,.text{
+        display: block;
+        width: 100%;
+    }
+    .text{
+        background-color: black;
+        width: 100%;
+        color: #fff;
+        padding: 10px 0px;
+        margin: 0;
+        
+    }
+    .super,.title, hr, .left br,.right{
+        display: none;
+    }    
+    div.left{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        border: 1px solid black;
+        position: absolute;
+    }
+    .Download_header{
+        margin-top: 0;
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .bot_header{
+        flex-direction: column;
+    }
+    .why{
+        flex-basis: auto;
+    }
+    .grid_icon .icon{
+        margin-right: 0;
+    }
+    .grid_icon .icon br{
+        visibility: collapse;
+    }
+    .bot_container{
+        width: 100%;
+    }
+    #footer .bot_footer{
+        display: block;
+    }
+    .row_dow .btn_Dow{
+        width: 50%;
+    }
+    tr{
+        height: 10vh
+    }
+}
+@media screen and (min-width: 701px) {
+    
+}
+.top_container{
+    display: flex;
+    flex-direction: row;
+    background: rgba(169, 169, 169, 0.425);
+}
+.Download_container{
+    padding: 10px;
+    border-style: none;
+}
+.Download_container:hover{
+    background-color: rgba(128, 128, 128, 0.616);
+}
+.anh_container{
+    width: 50%;
+    text-align: center;
+}
+.h2_container{
+    color: red;
+}
+.img_mid{
+    width: 70%;
+    margin: 10px;
+    height: auto;
+}
+.content{
+    margin: 20px;
+    width: 70%;
+}
+.title_bot_container{
+    margin-top: 0;
+    font-size: 40px;
+}
+.content_bot_container{
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.bot_container{
+    background-color: rgba(0, 0, 0, 0.753);
+    color: #fff;
+    text-align: center;
+    height: auto;
+}
+.Feature{
+    padding: 20px;
+}
+.grid_icon{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.grid_icon i{
+    font-size: 30px;
+    margin: 20px;
+}
+.icon{
+    height: 100%;
+    margin: 20px;
+    margin-bottom: 0;
+}
+#footer{
+    margin: 10px 10px 50px 10px;
+}
+.top_footer{
+    padding: 20px;
+    padding-top: 0;
+    text-align: center;
+    height: auto;
+}
+.bot_footer{
+    display: flex;
+}
+.left_bot_footer{
+    flex-grow: 1;
+    text-align: center;
+    justify-content: left;
+    margin: 10px;
+}
+.right_bot_footer{
+    flex-grow: 1;
+    text-align: center;
+    justify-content: right;
+    margin: 10px;
+}
+table.center{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+td{
+    border-top: 1px solid black;
+    width: 100vw;
+}
+#Basic{
+    background: rgba(0, 0, 0, 0.753);
+    height: 5vh;
+    color: #fff;
+}
+#Premium{
+    height: 5vh;
+    background: rgba(255, 0, 0, 0.733);
+    color: #fff;
+}
+.btn_Dow{
+    background-color: black;
+    color: #fff;
+    width: 10vw;
+    margin: 5px;
+    padding: 10px;
+}
+.row_dow{
+    background-color: rgba(169, 169, 169, 0.425);
+}
+.price{
+    height: 10vh;
+}
+.price span{
+    font-size: 20px;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(169, 169, 169, 0.425);
+    height: 100%;
+}
+footer [class^=fa]{
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
